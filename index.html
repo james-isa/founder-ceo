@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <title>Jim Koto | AI Holistic Integrative</title>
+    
+    <meta name="description" content="Official Hub of Jim Koto. Digital Strategist & Founder of Akomoda Network. Strategic Digital Acceleration.">
+    <meta property="og:title" content="Jim Koto | AI Holistic Integrative" />
+    <meta property="og:description" content="Founder & CEO Koto Batuah. Membangun infrastruktur digital yang kuat dan skalabel." />
+    <meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimTTR-NZ2sp2jd01YM9Ujv-PSP2hDIHwxHG8GN2DP5bCqbdxVhiaF58_R9K-lGzALWSLKXIjVhqeQEF1SuHGaPH84g9iV3e2OC1kv0ymZZCP1OFtE6Cyo8OL2TfmNFw7osh9Yhkh9OzRaCjnuDHnFz4NP4LtJ3r8Xnjg9aeTahmtPLBw/s1600/jimkoto_publisher.jpg" />
+
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-ML8EE2KW6E"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-ML8EE2KW6E');
+      gtag('config', 'G-FE4HB21ZPY');
+      gtag('config', 'GT-WF36X4Q');
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&family=Philosopher:wght@700&display=swap" rel="stylesheet">
+
+    <style>
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background: #020617; color: #f1f5f9; margin: 0; overflow-x: hidden; }
+        .philosopher { font-family: 'Philosopher', sans-serif; }
+        
+        /* Star Background Effect */
+        #star-canvas { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; background: radial-gradient(circle at center, #0f172a 0%, #020617 100%); }
+
+        /* Glassmorphism Cards */
+        .bento-card {
+            background: rgba(255, 255, 255, 0.01);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            transition: all 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        .bento-card:hover { 
+            background: rgba(255, 255, 255, 0.04); 
+            transform: translateY(-10px); 
+            border-color: rgba(74, 222, 128, 0.3);
+            box-shadow: 0 0 30px rgba(74, 222, 128, 0.1);
+        }
+        
+        /* Floating Profile Image */
+        .profile-float {
+            animation: float 6s ease-in-out infinite;
+        }
+        @keyframes float {
+            0% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-15px) rotate(2deg); }
+            100% { transform: translateY(0px) rotate(0deg); }
+        }
+
+        .profile-ring {
+            padding: 4px;
+            background: linear-gradient(45deg, #4ade80, #3b82f6);
+            border-radius: 50%;
+            display: inline-block;
+            box-shadow: 0 0 40px rgba(74, 222, 128, 0.2);
+        }
+
+        /* Nav Text Glow */
+        .nav-link { transition: 0.3s; position: relative; }
+        .nav-link:hover { color: #4ade80; text-shadow: 0 0 10px rgba(74, 222, 128, 0.5); }
+
+        #legal-banner { background: rgba(2, 6, 23, 0.95); backdrop-filter: blur(15px); border-top: 1px solid rgba(255, 255, 255, 0.1); transform: translateY(100%); transition: transform 0.6s ease-out; }
+        #legal-banner.show { transform: translateY(0); }
+    </style>
+</head>
+<body class="p-6 md:p-12 pb-32">
+
+    <canvas id="star-canvas"></canvas>
+
+    <div class="max-w-5xl mx-auto relative z-10">
+        <nav class="flex justify-between items-center mb-12 animate-in fade-in duration-1000">
+            <div class="text-xl font-black philosopher tracking-tighter text-white">JIM KOTO<span class="text-green-500">.</span></div>
+            <div class="flex gap-6 text-[10px] md:text-xs font-bold tracking-[0.2em] text-slate-400">
+                <a href="https://github.com/jimtok" target="_blank" class="nav-link uppercase">GITHUB</a>
+                <a href="https://www.linkedin.com/in/james-isa" target="_blank" class="nav-link uppercase">LINKEDIN</a>
+                <a href="/blog" class="nav-link uppercase">BLOG</a>
+            </div>
+        </nav>
+
+        <header class="text-center mb-16 profile-float">
+            <div class="profile-ring mb-6">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimTTR-NZ2sp2jd01YM9Ujv-PSP2hDIHwxHG8GN2DP5bCqbdxVhiaF58_R9K-lGzALWSLKXIjVhqeQEF1SuHGaPH84g9iV3e2OC1kv0ymZZCP1OFtE6Cyo8OL2TfmNFw7osh9Yhkh9OzRaCjnuDHnFz4NP4LtJ3r8Xnjg9aeTahmtPLBw/s1600/jimkoto_publisher.jpg" alt="Jim Koto" class="w-32 h-32 md:w-40 md:h-40 rounded-full object-cover border-4 border-[#020617]">
+            </div>
+            
+            <h1 class="text-5xl md:text-7xl font-extrabold tracking-tight mb-2 philosopher text-white">
+                Jim Koto<span class="text-green-400">.</span>
+            </h1>
+            <h2 class="text-xl md:text-2xl font-bold tracking-[0.4em] text-blue-400 uppercase mb-6 opacity-80">
+                AI Holistic Integrative
+            </h2>
+            <p class="max-w-2xl mx-auto text-slate-400 leading-relaxed italic text-sm md:text-base">
+                "Membangun infrastruktur digital yang kuat melalui pendekatan AI & Community Integration."
+            </p>
+        </header>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <a href="https://ai-holistic.xyz" class="bento-card md:col-span-2 p-10 rounded-[3rem] flex flex-col justify-between group">
+                <div>
+                    <div class="flex justify-between items-start">
+                        <span class="bg-green-500/10 text-green-400 text-[10px] font-bold px-4 py-1.5 rounded-full uppercase tracking-widest border border-green-500/20">Main Hub</span>
+                        <span class="text-3xl group-hover:scale-125 transition-transform duration-500">🤖</span>
+                    </div>
+                    <h3 class="text-white font-bold text-3xl mt-6">AI Holistic Integrative</h3>
+                    <p class="text-slate-400 mt-4 text-sm md:text-lg leading-relaxed">Pusat optimasi teknologi cerdas. Memastikan AI bekerja selaras dengan nilai-nilai bisnis yang holistik.</p>
+                </div>
+                <div class="mt-8 text-sm font-bold text-green-300 group-hover:translate-x-4 transition-transform flex items-center">
+                    EXPLORE SOLUTIONS <span class="ml-3">→</span>
+                </div>
+            </a>
+
+            <a href="https://akomodanetwork.com" class="bento-card p-10 rounded-[3rem] flex flex-col justify-between group">
+                <div>
+                    <span class="text-blue-400 text-[10px] font-bold uppercase tracking-widest">Community hub</span>
+                    <h3 class="text-white font-bold text-2xl mt-4">Akomoda Network</h3>
+                    <p class="text-slate-400 text-sm mt-3 leading-snug">Portfolio & digital services bridge.</p>
+                </div>
+                <span class="text-4xl mt-6 opacity-40 group-hover:opacity-100 transition-opacity">🌐</span>
+            </a>
+
+            <a href="https://jimtok.com" class="bento-card p-10 rounded-[3rem] flex flex-col justify-between group">
+                <div>
+                    <span class="text-purple-400 text-[10px] font-bold uppercase tracking-widest">Edutech lab</span>
+                    <h3 class="text-white font-bold text-2xl mt-4">JimTok</h3>
+                    <p class="text-slate-400 text-sm mt-3 leading-snug">Knowledge for Digital Preneur.</p>
+                </div>
+                <div class="mt-6 text-[9px] text-slate-500 font-mono tracking-widest">BLOG.JIMTOK.COM</div>
+            </a>
+
+            <a href="https://kotobatuah.com" class="bento-card p-10 rounded-[3rem] flex flex-col justify-between group">
+                <div>
+                    <span class="text-orange-400 text-[10px] font-bold uppercase tracking-widest">Business</span>
+                    <h3 class="text-white font-bold text-2xl mt-4">Koto Batuah</h3>
+                    <p class="text-slate-400 text-sm mt-3 leading-snug">Content Management & Ads.</p>
+                </div>
+                <span class="text-4xl mt-6 opacity-40 group-hover:opacity-100 transition-opacity">💼</span>
+            </a>
+
+            <div class="bento-card p-10 rounded-[3rem] flex flex-col justify-center items-center">
+                <a href="https://wa.me/6287763030330" target="_blank" class="w-full bg-green-500 hover:bg-green-400 text-slate-900 text-center py-5 rounded-3xl font-black transition-all shadow-xl shadow-green-500/20 uppercase tracking-tighter text-sm">
+                    Let's Collaborate
+                </a>
+                <p class="text-[9px] text-slate-600 mt-4 font-bold tracking-widest uppercase">Available for Strategy</p>
+            </div>
+        </div>
+
+        <footer class="text-center mt-24 pb-12">
+            <p class="text-slate-700 text-[9px] tracking-[0.4em] uppercase font-black mb-4">&copy; 2025 James Isa • Beyond Expectations</p>
+            <div class="h-[1px] w-20 bg-green-500/30 mx-auto"></div>
+        </footer>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('star-canvas');
+        const ctx = canvas.getContext('2d');
+        let stars = [];
+
+        function initStars() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+            stars = [];
+            for (let i = 0; i < 150; i++) {
+                stars.push({
+                    x: Math.random() * canvas.width,
+                    y: Math.random() * canvas.height,
+                    size: Math.random() * 1.5,
+                    speed: Math.random() * 0.5
+                });
+            }
+        }
+
+        function drawStars() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            ctx.fillStyle = '#ffffff';
+            stars.forEach(star => {
+                ctx.beginPath();
+                ctx.arc(star.x, star.y, star.size, 0, Math.PI * 2);
+                ctx.fill();
+                star.y += star.speed;
+                if (star.y > canvas.height) star.y = 0;
+            });
+            requestAnimationFrame(drawStars);
+        }
+
+        window.addEventListener('resize', initStars);
+        initStars();
+        drawStars();
+
+        window.onload = () => { setTimeout(() => { document.getElementById('legal-banner').classList.add('show'); }, 2000); };
+        function closeBanner() { document.getElementById('legal-banner').classList.remove('show'); }
+    </script>
+</body>
+</html>
